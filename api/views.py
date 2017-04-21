@@ -23,7 +23,7 @@ color_dict = {
 
 
 def notification_pulse(device, color):
-    device.start_music()
+    #device.start_music()
     status = device.get_properties()['power']
     device.effect="smooth"
     device.turn_on()
